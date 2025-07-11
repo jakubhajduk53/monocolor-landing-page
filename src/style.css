@@ -1,1 +1,21 @@
 @import "tailwindcss";
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@theme {
+  --color-main-000: hsl(275, 100%, 96%);
+  --color-main-100: hsl(275, 100%, 86%);
+  --color-main-200: hsl(275, 80%, 67%);
+  --color-main-300: hsl(275, 72%, 60%);
+  --color-main-400: hsl(275, 62%, 49%);
+  --color-main-500: hsl(275, 75%, 37%);
+  --color-main-600: hsl(275, 80%, 31%);
+  --color-main-700: hsl(275, 84%, 25%);
+  --color-main-800: hsl(275, 89%, 21%);
+  --color-main-900: hsl(275, 100%, 17%);
+}
