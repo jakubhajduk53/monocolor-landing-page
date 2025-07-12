@@ -1,3 +1,8 @@
+# 🎯 Usage & Purpose
+This is a sample site template built using a single hue.
+
+To change the hue, enter a number between 0 and 360 in the input field, or enable Color Rotation.
+
 # ✨ Design System Reference
 
 ## 📏 Font Size
@@ -12,25 +17,20 @@
 
 ## 🎨 Color Palette
 
-### Starting Hue
-:root {
-  --main-hue: 275;
-}
+### 🧪 Starting Hue
+  `--main-hue: 275`
 
-### Colors
-@theme {
-  --color-main-000: hsl(var(--main-hue), 100%, 96%);
-  --color-main-100: hsl(var(--main-hue), 100%, 86%);
-  --color-main-200: hsl(var(--main-hue), 80%, 67%);
-  --color-main-300: hsl(var(--main-hue), 72%, 60%);
-  --color-main-400: hsl(var(--main-hue), 62%, 49%);
-  --color-main-500: hsl(var(--main-hue), 75%, 37%);
-  --color-main-600: hsl(var(--main-hue), 80%, 31%);
-  --color-main-700: hsl(var(--main-hue), 84%, 25%);
-  --color-main-800: hsl(var(--main-hue), 89%, 21%);
-  --color-main-900: hsl(var(--main-hue), 100%, 17%);
-}
-
+### 🖌️ Colors
+  `--color-main-000:` `hsl(var(--main-hue), 100%, 96%);`  
+  `--color-main-100:` `hsl(var(--main-hue), 100%, 86%);`  
+  `--color-main-200:` `hsl(var(--main-hue), 80%, 67%);`  
+  `--color-main-300:` `hsl(var(--main-hue), 72%, 60%);`  
+  `--color-main-400:` `hsl(var(--main-hue), 62%, 49%);`  
+  `--color-main-500:` `hsl(var(--main-hue), 75%, 37%);`  
+  `--color-main-600:` `hsl(var(--main-hue), 80%, 31%);`  
+  `--color-main-700:` `hsl(var(--main-hue), 84%, 25%);`  
+  `--color-main-800:` `hsl(var(--main-hue), 89%, 21%);`  
+  `--color-main-900:` `hsl(var(--main-hue), 100%, 17%);`  
 
 ## 📦 Spacing
 
@@ -47,7 +47,7 @@
 
 - `h-full`
 - `h-[50px]`,`max-h-[10vh]` - header
-- 
+
 ## 🔤 Fonts
 
 - `--font-roboto: "Roboto", sans-serif;`
