@@ -1,5 +1,53 @@
-# Vue 3 + TypeScript + Vite
+# ✨ Design System Reference
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 📏 Font Size
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+| Element | Tailwind Classes       |
+| ------- | ---------------------- |
+| `h1`    | `text-3xl md:text-5xl` |
+| `h2`    | `text-xl md:text-3xl`  |
+| `h3`    | `text-base md:text-xl` |
+| `h4`    | `text-sm md:text-base` |
+| `h5`    | `text-xs md:text-sm`   |
+
+## 🎨 Color Palette
+
+### Starting Hue
+:root {
+  --main-hue: 275;
+}
+
+### Colors
+@theme {
+  --color-main-000: hsl(var(--main-hue), 100%, 96%);
+  --color-main-100: hsl(var(--main-hue), 100%, 86%);
+  --color-main-200: hsl(var(--main-hue), 80%, 67%);
+  --color-main-300: hsl(var(--main-hue), 72%, 60%);
+  --color-main-400: hsl(var(--main-hue), 62%, 49%);
+  --color-main-500: hsl(var(--main-hue), 75%, 37%);
+  --color-main-600: hsl(var(--main-hue), 80%, 31%);
+  --color-main-700: hsl(var(--main-hue), 84%, 25%);
+  --color-main-800: hsl(var(--main-hue), 89%, 21%);
+  --color-main-900: hsl(var(--main-hue), 100%, 17%);
+}
+
+
+## 📦 Spacing
+
+**Padding:** `p-3`, `p-1`  
+**Gap:** `gap-5`, `gap-3`
+
+## 📏 Width
+
+- `w-full`
+- `w-[25vw]` – aside
+- `w-[7ch]` – input
+
+## 📏 Height
+
+- `h-full`
+- `h-[50px]`,`max-h-[10vh]` - header
+- 
+## 🔤 Fonts
+
+- `--font-roboto: "Roboto", sans-serif;`
