@@ -39,7 +39,7 @@ onUnmounted(() => {
     <header
       class="flex flex-wrap justify-around items-center h-[50px] max-h-[10vh] bg-main-200"
     >
-      <div class="text-md md:text-xl">MONOCOLOR</div>
+      <div class="text-base md:text-xl">MONOCOLOR</div>
       <div class="flex gap-3 md:gap-5">
         <a href="#" class="cursor-pointer">Work</a>
         <a href="#" class="cursor-pointer">Services & pricing</a>
