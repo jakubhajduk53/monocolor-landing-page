@@ -41,10 +41,12 @@ onUnmounted(() => {
     >
       <div class="text-base md:text-xl">MONOCOLOR</div>
       <div class="flex gap-3 md:gap-5">
-        <a href="#" class="cursor-pointer">Work</a>
-        <a href="#" class="cursor-pointer">Services & pricing</a>
-        <a href="#" class="cursor-pointer">Socials</a>
-        <a href="#" class="cursor-pointer">About</a>
+        <a href="#" class="cursor-pointer" aria-label="Example of work">Work</a>
+        <a href="#" class="cursor-pointer" aria-label="Services and pricing"
+          >Services & pricing</a
+        >
+        <a href="#" class="cursor-pointer" aria-label="Social media">Socials</a>
+        <a href="#" class="cursor-pointer" aria-label="About author">About</a>
       </div>
       <button class="cursor-pointer">Order template</button>
     </header>
